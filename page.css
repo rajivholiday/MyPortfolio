@@ -215,6 +215,10 @@ p {
 
 .blogs .left-side {
     margin-bottom: 5px;
+    padding-right:0;
+}
+.blogs .right-side{
+    padding-left: 0;
 }
 
 .blogs .left-side h4 {
@@ -238,6 +242,11 @@ h4 {
 .blogs .right-side .part {
     color: #fff;
     align-items: center;
+    padding-bottom: 15px;
+   
+}
+.blogs .right-side .part hr{
+    width: 10%;
 }
 
 .blogs .right-side .part img {
@@ -378,62 +387,67 @@ h4 {
 }
 
 /* Testimonials section */
-.testimonials {
-    padding: 60px 100px;
+.testimonials{
+    padding: 60px 50px;
 }
-
-.testimonials h6 {
-    font-size: 22px;
-    color: #4353FF;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    margin: 0;
-
+.testimonials .jade-feedback{
+    margin-top: 15px;
 }
-
-.testimonials .title {
-    margin-bottom: 40px;
-}
-
-.testimonials h2 {
-    font-size: 54px;
-    margin-top: 0;
-
-}
-
-.testimonials .Jade {
+.testimonials .jade{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
-
+    
 }
-
-.testimonials .feedback {
-    padding-left: 100px;
-}
-
-
-
-.feedback h3 {
-    font-size: 36px;
-
-
-}
-
-
-.feedback .bottom {
+.testimonials .jade .jade-bottom{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.testimonials .jade .jade-feedback h3{
+    text-align: justify;
+    font-size: 36px;
+}
+.testimonials h4{
+    color: #000;
+}
+.testimonials h1{
+    font-size: 54px;
+    margin-top: 0;
+}
+.testimonials h4{
+    color: #4353FF;
+    font-size: 22px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 
-.feedback .bottom .right {
-    line-height: 5px;
+}
+.jade h3{
+    padding-bottom: 100px;
+
+}
+.testimonials .jade .jade-bottom h5{
+    font-size: 20px;
+}
+ 
+/*  */
+.jade-bottom h5, p{
+    margin: 0;
+   
+}
+.jade-bottom .left{
+    margin-bottom: 5px;
+}
+.jade .jade-bottom .right img{
+   margin-right: -4px;
 }
 
-.testimonials .feedback .bottom .left img {
-    margin-right: -20px;
-}
+
+
+
+
+
+
 
 
 
