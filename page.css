@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 nav {
@@ -243,6 +243,8 @@ h4 {
     color: #fff;
     align-items: center;
     padding-bottom: 15px;
+    border-bottom: 1px solid #fff;
+    width: 150%;
    
 }
 .blogs .right-side .part hr{
@@ -329,7 +331,8 @@ h4 {
 
 .education,
 .work {
-    width: 50%;
+    width: 100%;
+    margin-right:
 }
 
 .work-education .education .university .university-top {
@@ -398,10 +401,15 @@ h4 {
     justify-content: space-between;
     
 }
+.testimonials .jade-feedback{
+    margin-bottom: 50px;
+
+}
 .testimonials .jade .jade-bottom{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 0;
 }
 .testimonials .jade .jade-feedback h3{
     text-align: justify;
@@ -423,7 +431,7 @@ h4 {
 
 }
 .jade h3{
-    padding-bottom: 100px;
+    padding-bottom: 90px;
 
 }
 .testimonials .jade .jade-bottom h5{
