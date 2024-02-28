@@ -1,0 +1,140 @@
+/* Navigation bar design */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(11, 11, 75);
+}
+.navigation-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 130px;
+    align-items: center;
+    
+
+}
+.navigation-bar .logo{
+    display: flex;
+    align-items: center;
+    
+}
+.navigation-bar .logo .fa-bars{
+   font-size: 22px;
+   margin-left: 50px;
+   color: #fff;
+   visibility: hidden;
+   cursor: pointer;
+   
+   
+}
+.navigation-bar .logo{
+    display: flex;
+    align-items: center;
+}
+.navigation-bar .logo span{
+    color: #3A68B8;
+    font-size: 22px;
+    margin-left: 10px;
+}
+.navigation-bar .links a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+
+}
+/* .navigation-bar .sign-in a{
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 15px;
+    background-color: #3A68B8;
+    border: 1px solid;
+    border-radius: 5px;
+
+} */
+
+/* Introduction section */
+.introduction{
+    padding: 60px 130px;
+    align-items: center;
+}
+.introduction .introduction-left p{
+    font-weight: 600;
+    color: #fff;
+}
+.introduction .introduction-left p.next{
+    color: #3A68B8;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+}
+.introduction .introduction-left h1{
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 55px;
+    padding-bottom: 40px;
+}
+.introduction-left .buton{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Companies  */
+.companies {
+    padding: 100px 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    .introduction .introduction-left{
+        align-items: center;
+        margin-bottom: 50px;
+    }
+}
+@media(max-width:768px){
+    .introduction .introduction-left .buton{
+        margin-bottom: 10px ;
+    }
+    .companies .company{
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:1017px){
+    .navigation-bar .links, .sign-in{
+        visibility: hidden;
+
+    }
+    .navigation-bar .logo .fa-bars{
+        visibility: visible;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
