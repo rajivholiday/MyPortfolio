@@ -4,6 +4,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgb(11, 11, 75);
+   
 }
 .navigation-bar{
     display: flex;
@@ -84,8 +85,109 @@ body{
 }
 
 div.apply{
+    padding:130px;
+}
+
+
+div.apply-right{
+    padding-top: 100px;
+}
+
+div.apply div.apply-right h1{
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+
+}
+div.apply div.apply-right p{
+    font-weight: 600px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+/* div.kards{
     padding: 60px 130px;
 }
+
+div.kard img{
+    max-width: 40%;
+} */
+
+
+section.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+    
+}
+section.cards img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20%;
+    margin-top: 20px;
+}
+section.cards h6, p{
+    font-size: 12px;
+    text-align: justify;
+    margin-top: 10px;
+    color: #fff;
+}
+
+section.cards div.card{
+    width: 210px;
+    height: 220px;
+    background-color: #263347;
+}
+
+
+/* feedback section */
+
+div.feedback{
+    padding: 60px 160px;
+}
+div.feedback div.feedback-left h1, p{
+    margin-bottom: 25px;
+}
+div.feedback div.feedback-left h1{
+    font-size: 40px;
+    color: #fff;
+}
+div.feedback div.feedback-left p{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
